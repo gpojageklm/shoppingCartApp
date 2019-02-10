@@ -1,0 +1,16 @@
+  <div>
+    <h2 class="product-title"> Product Detail</h2>
+  <table class="product-header">
+    <tr><td>ProductName</td><td>Specification</td><td>Snapshot</td><td>Customer-Rating</td></tr>
+  </table>
+  <table  *ngFor="let product of selectedProduct"  class="product-data">
+   <tr>
+     <td>{{product.Name}}</td>
+     <td>{{product.Specification}}</td>
+     <td><img src={{product.ImageUrl}}  height="50" width="60"></td>
+     <td>{{product.Rating}}</td>
+   </tr>
+  </table>
+ <button (click)="navigateToProductList()">Back</button>
+</div>
+

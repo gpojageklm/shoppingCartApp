@@ -1,0 +1,19 @@
+<div>
+  <h2 class="product-title"> Product List</h2>
+  <table class="product-header">
+    <tr><td>ProductName</td><td>Price</td><td>Add Product</td><td>Get Details</td></tr>
+  </table>
+  <table  *ngFor="let product of productJSON"  class="product-data">
+   <tr>
+     <td>{{product.Name}}</td>
+     <td>{{product.Price}}</td>
+     <td><button (click)="addProduct(product.ID,product)"  [disabled]="product.isDisabled">Add to Cart</button></td>
+     <td><a routerLink="../products/:{{product.ID}}" routerLinkActive="active">Show Details</a></td>
+   </tr>
+  </table>
+ 
+</div>
+ <div>
+  <button (click)="navigateToCart()">Show Cart</button>
+  </div>
+

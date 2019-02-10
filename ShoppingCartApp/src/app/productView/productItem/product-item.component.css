@@ -1,0 +1,26 @@
+.product-items
+{
+    border:1px solid green;
+    top:100px;
+    position:relative;
+    float:left;
+    text-align:center;
+}
+table,tr,td{
+    padding:5px;
+}
+.product-items td{
+   color:green;
+   font-size:22px;
+   border:1px solid gray;
+   background-color: white;
+   width:150px;
+   height:140px;
+}
+
+.top-shopping-cart
+{
+    width:300px;
+    top:50px;
+    height:100px;
+}

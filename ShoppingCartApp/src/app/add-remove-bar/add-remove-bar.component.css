@@ -1,0 +1,19 @@
+.add-remove-conatiner
+{
+    border:1px solid gray;
+    width:130px;
+    position:absolute;
+    background-color: lightgray;
+    
+}
+.add-remove-conatiner button{
+    width:30px;
+}
+.add-remove-conatiner .item
+{
+    text-align:center;
+    width:60px;
+    font-size:16px;
+    background-color: lightskyblue;
+    color:white;
+}

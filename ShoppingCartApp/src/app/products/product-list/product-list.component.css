@@ -1,0 +1,34 @@
+table,tr,td,div,a,button{
+    padding:5px;
+    
+}
+.product-title{
+    text-align:center;
+    font-size: 23px;
+    height:60px;
+    padding-top:15px;
+
+}
+.product-header,.product-data {
+    text-align:center;
+    font-size: 18px;
+    height:60px;
+    padding-top:15px;
+    border:1px solid gray;
+    width:100%;
+    margin-bottom:15px;
+}
+.product-header td
+{
+     border:1px solid gray;
+     width:25%;
+     background-color:lightskyblue;
+     font-weight:bold;
+}
+.product-data td
+{
+    padding-top:10px;
+    background-color:lightyellow;
+    width:25%;
+    border:1px solid black;
+}

@@ -1,0 +1,15 @@
+<div class="top-shopping-cart">
+ <img src="" width="200px" height="200px" alt="shopping-cart" (click)="getCart()">   
+ </div>  
+<div class="product-items">Product Items
+<table>
+<tr *ngFor="let row of table;let i=index">
+  <td *ngFor="let column of row;let j=index">
+    <div *ngIf="column" class="product-item">
+    {{column.productsName}}
+    <add-remove-bar (itemCountChange)="handleBarClicked($event,column.productsName,column.productId,column.price)"></add-remove-bar>
+    </div>
+  </td>
+</tr>
+</table>
+</div>

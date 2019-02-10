@@ -1,0 +1,29 @@
+[
+    {
+        "ID": "001",
+        "Name": "LG 100X Mobile",
+        "Type": "Mobile",
+        "Price": "500 EUR",
+        "Specification":"Camera 3oMP, Battery-100MD,BlueTooth,Storage 8GB",
+        "Rating":"4.5",
+        "ImageUrl":"assets/images/LG.jpg"
+    },
+    {
+        "ID": "002",
+        "Name": "Samsung 25M Mobile",
+        "Type": "Mobile",
+        "Price": "340 EUR",
+        "Specification":"Camera 25MP, Battery-100MD,BlueTooth,Wifi",
+        "Rating":"4.2",
+        "ImageUrl":"assets/images/Samsung.jpg"
+    },
+    {
+        "ID": "003",
+        "Name": "Nokia LXM Mobile",
+        "Type": "Mobile",
+        "Price": "400 EUR",
+        "Specification":"Camera 2oMP, Battery-100MD,BlueTooth",
+        "Rating":"4.0",
+        "ImageUrl":"assets/images/Nokia.jpg"
+    }
+]

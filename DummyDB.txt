@@ -1,0 +1,30 @@
+https://my-json-server.typicode.com/
+jsonplaceholder
+
+https://appdividend.com/2018/05/27/angular-6-crud-example-mean-stack-tutorial/
+gajananpojage/myTestDB
+https://my-json-server.typicode.com/gajananpojage/myTestDB
+https://my-json-server.typicode.com/gajananpojage/myTestDB/db
+https://my-json-server.typicode.com/gajananpojage/myTestDB/posts
+https://my-json-server.typicode.com/gajananpojage/myTestDB/posts/1
+
+"C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
+
+
+Unit Testing Angular
+https://www.youtube.com/watch?v=o7N5JyhvKIY
+
+create jsonserver folder 
+npm init
+it will ask some question provide descripton only click enter for rest
+Check package.json
+
+npm install --save json-server
+ update script part 
+"scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+in package json 
+create db.json file in jsonserver folder with dummy json data
+npm run json:server
+It will start at 3000 port and show resources

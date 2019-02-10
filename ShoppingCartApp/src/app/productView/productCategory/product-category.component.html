@@ -1,0 +1,14 @@
+<div class="product-category-container">
+  
+<div class="product-category">
+<div class="product-category-header">{{productCategoryHeader}}</div>
+<div class="category-list">
+<div class="category" *ngFor="let product of productCategories">
+    <a (click)="selectCategory(product.id)">{{product.productCategory}}</a></div>
+</div>
+</div>
+
+<div class="product-list-container">
+<product-item [categoryId]="selectedCategoryId"></product-item>
+</div>
+</div>
